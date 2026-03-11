@@ -1,4 +1,39 @@
-h1 {
-  color: rebeccapurple;
-  background-color: bisque;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.left-wrapper {
+  background-image: url(./images/sign-up-form-background.avif);
+  background-size: cover;
+  color: white;
+  width: 33vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.odin-lined {
+  width: 120px;
+}
+
+.odin-wrapper {
+  margin-top: 50%;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4); /* 50% transparent black */
+}
+
+.img-credit-creator {
+  text-align: center;
+  margin-bottom: 15px;
 }
