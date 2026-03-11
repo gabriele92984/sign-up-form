@@ -37,3 +37,29 @@
   text-align: center;
   margin-bottom: 15px;
 }
+
+.right-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-wrapper > div {
+  margin: 40px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.form-wrapper {
+  margin-top: 10px;
+  display: flex;
+  background-color: lightgrey;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
