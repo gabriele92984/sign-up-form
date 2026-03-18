@@ -42,24 +42,60 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 77vw;
 }
 
-.right-wrapper > div {
-  margin: 40px;
+.form-intro {
+  margin-left: 40px;
 }
 
 button {
   margin-top: 20px;
 }
 
-.form-wrapper {
-  margin-top: 10px;
+.fields-wrapper {
   display: flex;
-  background-color: lightgrey;
+  background-color: beige;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+.form-wrapper > h3 {
+  background-color: beige;
+  margin-top: 100px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.form-wrapper + div {
+  margin-top: 50px;
+  margin-left: 40px;
 }
 
 .input-field {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+
+}
+
+.right-field {
+  margin-left: 40px;
+}
+
+form > div {
+  padding-left: 40px;
+}
+
+form button {
+  margin-left: 40px;
+}
+
+.img-credit-creator a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: sans-serif;
 }
