@@ -13,7 +13,7 @@
   background-image: url(./images/sign-up-form-background.avif);
   background-size: cover;
   color: white;
-  width: 33vw;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -47,6 +47,13 @@
 
 .form-intro {
   margin-left: 40px;
+  margin-right: 200px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-intro :last-child {
+  margin-top: 24px;
 }
 
 button {
@@ -62,9 +69,11 @@ button {
 
 .form-wrapper > h3 {
   background-color: beige;
-  margin-top: 100px;
+  margin-top: 60px;
   padding-left: 40px;
   padding-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .form-wrapper + div {
