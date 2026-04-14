@@ -70,10 +70,15 @@ button {
   outline: none;
 }
 
+.btn-div {
+  background-color: #F9FAFB;
+  box-shadow: inset 0px 2px gray;
+}
+
 .fields-wrapper {
   display: flex;
   padding-bottom: 32px;
-  box-shadow: 0px 2px gray;
+  
 }
 
 .form-wrapper {
@@ -106,10 +111,6 @@ button {
 
 form > div {
   padding-left: 40px;
-}
-
-form button {
-  margin-left: 40px;
 }
 
 .img-credit-creator a {
