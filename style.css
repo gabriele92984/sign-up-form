@@ -127,7 +127,7 @@ form > div {
 }
 
 button {
-  margin-top: 40px;
+  margin-top: 38px;
   font-size: 18px;
   font-weight: bold;
   padding: 14px 48px;
@@ -141,6 +141,10 @@ button {
 
 .account-login {
   font-size: 18px;
+}
+
+.account-login p {
+  font-weight: 500;
 }
 
 .account-login a {
@@ -160,4 +164,5 @@ input {
   height: 40px;
   width: 300px;
   padding: 10px;
+  background-color: #F9FAFB;
 }
