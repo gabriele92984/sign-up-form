@@ -126,6 +126,31 @@ form > div {
   color: white;
 }
 
+label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+input {
+  font-size: 16px;
+  border-radius: 4px;
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+  background-color: #F9FAFB;
+  border: 2px solid #ccc;
+  transition: border-color 0.2s;
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+input:user-valid {
+  border-color: blue;
+}
+
+
 button {
   margin-top: 38px;
   font-size: 18px;
@@ -151,18 +176,4 @@ button {
   color: #596D48;
   font-weight: bold;
   text-decoration: none;
-}
-
-label {
-  font-size: 13px;
-  font-weight: 500;
-}
-
-input {
-  font-size: 16px;
-  border-radius: 4px;
-  height: 40px;
-  width: 300px;
-  padding: 10px;
-  background-color: #F9FAFB;
 }
