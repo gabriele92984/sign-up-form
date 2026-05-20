@@ -72,19 +72,6 @@ body {
   margin-top: 24px;
 }
 
-button {
-  margin-top: 40px;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 16px 48px;
-  background-color: #596D48;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 2px 2px gray;
-  outline: none;
-}
-
 .btn-div {
   background-color: #F9FAFB;
   box-shadow: inset 0px 2px gray;
@@ -139,8 +126,17 @@ form > div {
   color: white;
 }
 
-body {
-  font-family: sans-serif;
+button {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 14px 48px;
+  background-color: #596D48;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px gray;
+  outline: none;
 }
 
 .account-login {
@@ -154,7 +150,8 @@ body {
 }
 
 label {
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 input {
