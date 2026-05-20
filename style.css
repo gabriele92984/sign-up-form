@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('./assets/fonts/norse/Norse-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -27,8 +35,15 @@ body {
   width: 130px;
 }
 
+.odin-text {
+  font-family: 'Norse';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 8rem;
+}
+
 .odin-wrapper {
-  margin-top: 50%;
+  margin-top: 30%;
   padding: 15px;
   width: 100%;
   display: flex;
